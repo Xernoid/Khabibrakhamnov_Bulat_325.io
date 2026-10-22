@@ -46,7 +46,7 @@
                 <video class="banner-video" src="image/video-14-05-26-04-09.mov" autoplay muted loop playsinline></video>
                 <div class="video-shadow"></div>
              </div>
-            
+
         </div>
     </section> <!-- конец блока -->
 
@@ -74,8 +74,8 @@
                 <img src="image/card2.webp" alt="card-img">
                 <div class="card-bottom">
                     <div class="card-text">
-                        <h3 class="h4-green">Экскурсия по музею</h3>
-                        <p>Познакомим с историей татарской деревни, бытом и традициями нашего народа.</p>
+                        <h3 class="h4-green">Контактный<br>зоопарк</h3>
+                        <p>Домашние животные, птицы и спокойная прогулка по территории музея.</p>
                     </div>
                     <div class="card-bottom-tb">
                         <div class="card-bottom-left">
@@ -91,8 +91,8 @@
                 <img src="image/card3.webp" alt="card-img">
                 <div class="card-bottom">
                     <div class="card-text">
-                        <h3 class="h4-green">Экскурсия по музею</h3>
-                        <p>Познакомим с историей татарской деревни, бытом и традициями нашего народа.</p>
+                        <h3 class="h4-green">Проведение<br>мероприятий</h3>
+                        <p>Праздники, корпоративы, никах, свадьбы и семейные события на территории музея</p>
                     </div>
                     <div class="card-bottom-tb">
                         <div class="card-bottom-left">
@@ -202,7 +202,7 @@
                     <div class="where-text-top">
                         <h3 class="h4-green">Остались вопросы?</h3>
                         <a class="where-a" href="tel:+79393045246">+79393045246</a>
-                        <p>Ежедневно с 9:00-21:00</p>
+                        <p>Ежедневно с 9:00 до 21:00</p>
                     </div>
                 </div>
                 <a class="green-fill-a" href="https://yandex.ru/maps/?mode=routes&amp;rtext=~%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F%2C%20%D0%A0%D0%B5%D1%81%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0%20%D0%A2%D0%B0%D1%82%D0%B0%D1%80%D1%81%D1%82%D0%B0%D0%BD%2C%20%D0%97%D0%B5%D0%BB%D0%B5%D0%BD%D0%BE%D0%B4%D0%BE%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9%20%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%2C%20%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BD%D1%8F%20%D0%98%D1%81%D0%B0%D0%BA%D0%BE%D0%B2%D0%BE%2C%20%D0%9F%D0%BE%D0%BB%D0%B5%D0%B2%D0%B0%D1%8F%20%D1%83%D0%BB%D0%B8%D1%86%D0%B0%2C%2040&amp;rtt=auto" target="_blank" rel="noopener noreferrer">Построить маршрут</a>
@@ -218,8 +218,8 @@
                 <div class="faq-title-p-border"></div>
             </div>
             <h2>Перед поездкой</h2>
-            <p>Мы собрали ответы на самые популярные вопросы, чтобы ваше посещение было комфортным и приянтым.</p>
-        </div> 
+            <p>Мы собрали ответы на самые популярные вопросы, чтобы ваше посещение было комфортным и приятным.</p>
+        </div>
         <div class="faq-right-block">
             <div class="right-faq">
                 <div class="question">
@@ -235,7 +235,7 @@
                     <hr>
                     <details>
                         <summary>В какое время работает музей?</summary>
-                        <p>Музей открыт ежедневно с 08:00 до 17:00. Рекомендуем планировать посещение заранее, чтобы успеть познакомиться со всеми достопримечательностями.</p>
+                        <p>Музей открыт ежедневно с 9:00 до 21:00. Рекомендуем планировать посещение заранее, чтобы успеть познакомиться со всеми достопримечательностями.</p>
                     </details>
                     <hr>
                 </div>
@@ -270,15 +270,15 @@
     <div class="contacts container" id="contacts"> <!-- начало блока -->
         <div class="title">
             <h2>Контакты</h2>
-            <p>Остались Вопросы? Мы сможем на них ответить!</p>
+            <p>Остались вопросы? Мы сможем на них ответить!</p>
         </div>
 
-        <form action="#where" onsubmit="event.preventDefault(); document.getElementById('where').scrollIntoView({behavior: 'smooth'}); window.location.hash = 'where';">
+        <form onsubmit="event.preventDefault(); this.reset();">
             <div class="form-left">
                 <div class="input-text">
                     <div class="left-inputs">
-                        <input type="text" placeholder="Введите ваше имя">
-                        <input type="tel" placeholder="8-999-999-99-99">
+                        <input type="text" name="name" placeholder="Введите ваше имя" aria-label="Ваше имя" autocomplete="name" required>
+                        <input type="tel" name="phone" placeholder="8-999-999-99-99" aria-label="Номер телефона" autocomplete="tel" required>
                     </div>
 
                     <label>Нажимая на кнопку я соглашаюсь c <a href="https://www.minjust.gov.ru/ru/documents/8011/" target="_blank" rel="noopener noreferrer">политикой обработки персональных
@@ -288,7 +288,7 @@
                 <button class="green-fill-a" type="submit">Отправить</button>
             </div>
             <div class="form-right">
-                <textarea class="form-message" placeholder="Введите вопрос" maxlength="500"></textarea>
+                <textarea class="form-message" name="message" aria-label="Ваш вопрос" placeholder="Введите вопрос" maxlength="500"></textarea>
             </div>
         </form>
     </div> <!-- конец блока -->
@@ -330,11 +330,11 @@
                         </li>
                     </ul>
                     <div class="socialmedia">
-                        
-                        <a href="https://vk.ru/id357582372"><img src="image/Vector.svg" alt="social"></a>
-                        
-                        <a href="https://t.me/Xenroid"><img src="image/ic_baseline-telegram.svg" alt="social"></a>
-                        <a href="https://max.ru/u/f9LHodD0cOKSqqkCeUWam11PrU2kuynWOxjY9w_FvC55zO77AxF3h82wWkQ "><img src="image/max-logo.svg" alt="social"></a>
+
+                        <a href="https://vk.ru/id357582372"><img src="image/Vector.svg" alt="ВКонтакте"></a>
+
+                        <a href="https://t.me/Xenroid"><img src="image/ic_baseline-telegram.svg" alt="Telegram"></a>
+                        <a href="https://max.ru/u/f9LHodD0cOKSqqkCeUWam11PrU2kuynWOxjY9w_FvC55zO77AxF3h82wWkQ"><img src="image/max-logo.svg" alt="MAX"></a>
                     </div>
                 </div>
             </div>
