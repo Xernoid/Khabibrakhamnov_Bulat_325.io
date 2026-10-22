@@ -8,7 +8,7 @@
     <link rel="shortcut icon" href="image/museum-favicon.png" type="image/png">
 </head>
 
-<body>
+<body id="home">
     <header>
         <div class="header container">  <!-- начало блока -->
             <div class="header-logo-block">
@@ -17,12 +17,12 @@
             </div>
             <div class="header-right-block">
                 <nav class="header-nav">
-                    <a class="header-nav-a" href="#">Главная</a>
-                    <a class="header-nav-a" href="#">Услуги</a>
-                    <a class="header-nav-a" href="#">Галлерея</a>
-                    <a class="header-nav-a" href="#">Как добраться</a>
+                    <a class="header-nav-a" href="#home">Главная</a>
+                    <a class="header-nav-a" href="#services">Услуги</a>
+                    <a class="header-nav-a" href="#gallery">Галерея</a>
+                    <a class="header-nav-a" href="#where">Как добраться</a>
                 </nav>
-                <a class="header-button-a" href="#">Бронировать</a>
+                <a class="header-button-a" href="#contacts">Бронировать</a>
             </div>
         </div>
     </header> <!-- конец блока -->
@@ -36,7 +36,7 @@
                         народа, природу и гостепреимство в этнокультурном музее “Татар
                         Авылы“</p>
                 </div>
-                <a class="button-padding-light" href="#">Бронировать</a>
+                <a class="button-padding-light" href="#contacts">Бронировать</a>
             </div>
         </div>
         <div class="banner-bottom container" >
@@ -50,7 +50,7 @@
         </div>
     </section> <!-- конец блока -->
 
-    <div class="card-services container"> <!-- начало блока -->
+    <div class="card-services container" id="services"> <!-- начало блока -->
         <h2 class="h2-green">Выберите свое путешествие в традиции</h2>
         <div class="cards">
             <div class="card">
@@ -65,7 +65,7 @@
                             <img src="image/clock-icon.svg" alt="clock">
                             <p>1 час</p>
                         </div>
-                        <a class="green-padding-a" href="#">Подробнее</a>
+                        <a class="green-padding-a" href="#traditions">Подробнее</a>
                     </div>
                 </div>
 
@@ -82,7 +82,7 @@
                             <img src="image/clock-icon.svg" alt="clock">
                             <p>1 час</p>
                         </div>
-                        <a class="green-padding-a" href="#">Подробнее</a>
+                        <a class="green-padding-a" href="#traditions">Подробнее</a>
                     </div>
                 </div>
 
@@ -99,14 +99,14 @@
                             <img src="image/clock-icon.svg" alt="clock">
                             <p>1 час</p>
                         </div>
-                        <a class="green-padding-a" href="#">Подробнее</a>
+                        <a class="green-padding-a" href="#traditions">Подробнее</a>
                     </div>
                 </div>
 
             </div>
         </div>
     </div> <!-- конец блока -->
-    <div class="primier container"> <!-- начало блока -->
+    <div class="primier container" id="traditions"> <!-- начало блока -->
         <div class="primier-left">
             <h2 id="primier-h4">Живые традиции в каждом моменте</h2>
         </div>
@@ -151,7 +151,7 @@
             </div>
         </div>
     </div> <!-- конец блока -->
-    <div class="gallerey"> <!-- начало блока -->
+    <div class="gallerey" id="gallery"> <!-- начало блока -->
         <div class="title container">
             <h2>Атмосфера Татар Авылы</h2>
         </div>
@@ -178,7 +178,7 @@
 
 
     </div> <!-- конец блока -->
-    <div class="where container"> <!-- начало блока -->
+    <div class="where container" id="where"> <!-- начало блока -->
         <div class="where-title">
             <h2>Где мы находимся?</h2>
         </div>
@@ -188,7 +188,7 @@
                 <div class="map-map-aaa">
                     <iframe
                         src="https://yandex.ru/map-widget/v1/?um=constructor%3A34a80fe8ca4a9b17e68039d3498918f0f9626dde81c750db4837a66b12f06308&amp;source=constructor"
-                        width="793" height="529" title="Расположение музея Татар Авылы на Яндекс Картах"></iframe>
+                        width="793" height="529" loading="lazy" allowfullscreen title="Расположение музея Татар Авылы на Яндекс Картах"></iframe>
                 </div>
                 <!-- <div class="map-down-card"></div> -->
 
@@ -205,13 +205,13 @@
                         <p>Ежедневно с 9:00-21:00</p>
                     </div>
                 </div>
-                <a class="green-fill-a" href="#">Построить маршрут</a>
+                <a class="green-fill-a" href="https://yandex.ru/maps/?mode=routes&amp;rtext=~%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F%2C%20%D0%A0%D0%B5%D1%81%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0%20%D0%A2%D0%B0%D1%82%D0%B0%D1%80%D1%81%D1%82%D0%B0%D0%BD%2C%20%D0%97%D0%B5%D0%BB%D0%B5%D0%BD%D0%BE%D0%B4%D0%BE%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9%20%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%2C%20%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BD%D1%8F%20%D0%98%D1%81%D0%B0%D0%BA%D0%BE%D0%B2%D0%BE%2C%20%D0%9F%D0%BE%D0%BB%D0%B5%D0%B2%D0%B0%D1%8F%20%D1%83%D0%BB%D0%B8%D1%86%D0%B0%2C%2040&amp;rtt=auto" target="_blank" rel="noopener noreferrer">Построить маршрут</a>
             </div>
         </div>
 
 
     </div>  <!-- конец блока -->
-    <div class="faq container"> <!-- начало блока -->
+    <div class="faq container" id="faq"> <!-- начало блока -->
         <div class="faq-title">
             <div class="faq-title-top">
                 <p>Часто задаваемые вопросы</p>
@@ -267,13 +267,13 @@
             </div>
         </div>
     </div> <!-- конец блока -->
-    <div class="contacts container"> <!-- начало блока -->
+    <div class="contacts container" id="contacts"> <!-- начало блока -->
         <div class="title">
             <h2>Контакты</h2>
             <p>Остались Вопросы? Мы сможем на них ответить!</p>
         </div>
 
-        <form>
+        <form action="#where" onsubmit="event.preventDefault(); document.getElementById('where').scrollIntoView({behavior: 'smooth'}); window.location.hash = 'where';">
             <div class="form-left">
                 <div class="input-text">
                     <div class="left-inputs">
@@ -281,11 +281,11 @@
                         <input type="tel" placeholder="8-999-999-99-99">
                     </div>
 
-                    <label>Нажимая на кнопку я соглашаюсь c <a href="#">политикой обработки персональных
+                    <label>Нажимая на кнопку я соглашаюсь c <a href="https://www.minjust.gov.ru/ru/documents/8011/" target="_blank" rel="noopener noreferrer">политикой обработки персональных
                             данных</a></label>
                 </div>
 
-                <button class="green-fill-a">Отправить</button>
+                <button class="green-fill-a" type="submit">Отправить</button>
             </div>
             <div class="form-right">
                 <textarea class="form-message" placeholder="Введите вопрос" maxlength="500"></textarea>
@@ -308,25 +308,25 @@
                 <div class="footer-block" id="foot-nav">
                     <p class="p-med">Навигация</p>
                     <ul>
-                        <li class="footer-nav"><a href="#">Главная</a> </li>
-                        <li class="footer-nav"><a href="#">Услуги</a> </li>
-                        <li class="footer-nav"><a href="#">Галлерея</a> </li>
-                        <li class="footer-nav"><a href="#">Контакты</a> </li>
+                        <li class="footer-nav"><a href="#home">Главная</a> </li>
+                        <li class="footer-nav"><a href="#services">Услуги</a> </li>
+                        <li class="footer-nav"><a href="#gallery">Галерея</a> </li>
+                        <li class="footer-nav"><a href="#contacts">Контакты</a> </li>
                     </ul>
                 </div>
                 <div class="footer-block" id="foot-doc">
                     <p class="p-med">Документы</p>
                     <ul>
-                        <li class="footer-nav"><a href="#">Политика конфиденциальности</a></li>
-                        <li class="footer-nav"><a href="#">Пользовательское соглашение</a></li>
-                        <li class="footer-nav"><a href="#">Согласие на обрабоку данных</a></li>
+                        <li class="footer-nav"><a href="https://www.minjust.gov.ru/ru/documents/8011/" target="_blank" rel="noopener noreferrer">Политика конфиденциальности</a></li>
+                        <li class="footer-nav"><a href="https://www.minjust.gov.ru/ru/documents/8011/" target="_blank" rel="noopener noreferrer">Пользовательское соглашение</a></li>
+                        <li class="footer-nav"><a href="https://www.minjust.gov.ru/ru/documents/8011/" target="_blank" rel="noopener noreferrer">Согласие на обработку данных</a></li>
                     </ul>
                 </div>
                 <div class="footer-block" id="foot-con">
                     <p class="p-med">Связаться с нами</p>
                     <ul>
                         <li class="footer-nav"><a href="tel:+79393045246">+79393045246</a></li>
-                        <li class="footer-nav"><a href="mailto:sapport@tatetnomuseum.ru">support@tatetnomuseum.ru</a>
+                        <li class="footer-nav"><a href="mailto:support@tatetnomuseum.ru">support@tatetnomuseum.ru</a>
                         </li>
                     </ul>
                     <div class="socialmedia">

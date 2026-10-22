@@ -719,3 +719,18 @@ hr {
 .map-map-aaa iframe {
     border: 0;
 }
+
+/* Переходы к разделам страницы. */
+html {
+    scroll-behavior: smooth;
+}
+
+[id] {
+    scroll-margin-top: 24px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+}
