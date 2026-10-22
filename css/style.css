@@ -98,7 +98,7 @@ header {
     position: relative;
     height: 629px;
     width: 100%;
-    background: url(../image/bg-image.png) no-repeat center;
+    background: url(../image/bg-image.webp) no-repeat center;
     object-fit: cover;
     display: flex;
     align-items: center;
